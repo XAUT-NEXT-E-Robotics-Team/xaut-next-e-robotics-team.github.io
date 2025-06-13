@@ -17,11 +17,11 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'NEXT-E',
-  description: '西安理工大学NEXT-E机器人战队',
+  description: '西安理工大学NEXT-E战队',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://pic1.imgdb.cn/item/684c65ea58cb8da5c84b050b.png' }],
   ],
 
   bundler: viteBundler(),
