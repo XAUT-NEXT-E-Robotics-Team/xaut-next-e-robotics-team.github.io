@@ -1,3 +1,19 @@
+/*
+ *  _   _  _______   _______   _____  
+ * | \ | ||  ___\ \ / /_   _| |  ___| 
+ * |  \| || |__  \ V /  | |   | |__   
+ * | . ` ||  __| /   \  | |   |  __|  
+ * | |\  || |___/ /^\ \ | |   | |___  
+ * \_| \_/\____/\/   \/ \_/   \____/  
+ * 
+ * @Author: ziyu (Chen Zhaoyu)
+ * @Date: 2025-06-14 00:16:00
+ * @LastEditors: ziyu (Chen Zhaoyu)
+ * @LastEditTime: 2025-06-14 10:49:12
+ * @Description: 
+ * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
+ */
+
 /**
  * 查看以下文档了解主题配置
  * - @see https://theme-plume.vuejs.press/config/intro/ 配置说明
@@ -18,7 +34,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'https://img.picui.cn/free/2025/06/14/684ce58a08f39.png',
 
   appearance: true,  // 配置 深色模式
 
@@ -49,9 +65,9 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: 'https://img.picui.cn/free/2025/06/14/684ce58a08f39.png',
     name: 'NEXT-E',
-    description: '西安理工大学NEXT-E机器人战队',
+    description: '西安理工大学NEXT-E战队',
     // circle: true,
     // location: '',
     // organization: '',
