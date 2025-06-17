@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-06-14 10:49:12
+ * @LastEditTime: 2025-06-17 13:05:49
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -83,15 +83,15 @@ export default defineThemeConfig({
   // bulletin: {
   //   layout: 'top-right',
   //   contentType: 'markdown',
-  //   title: '公告板标题',
+  //   title: '欢迎来到',
   //   content: '公告板内容',
   // },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
-  // transition: {
-  //   page: true,        // 启用 页面间跳转过渡动画
-  //   postList: true,    // 启用 博客文章列表过渡动画
-  //   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
-  // },
+  transition: {
+    page: true,        // 启用 页面间跳转过渡动画
+    postList: true,    // 启用 博客文章列表过渡动画
+    appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+  },
 
 })

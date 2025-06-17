@@ -3,20 +3,27 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: banner
     full: true
-    background: tint-plate
+    banner: https://img.picui.cn/free/2025/06/17/6850fea1abbf6.jpg
+    bannerMask: { light: 0.2, dark: 0.5 }
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: NEXT-E
+      tagline: 格物穷理，不破不立
+      text: 西安理工大学NEXT-E机器人战队
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 文档
+          link: /docs/docs/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: 培训
+          link: /docs/train/
+        -
+          theme: alt
+          text: 博客
+          link: /blog/
+  -
+    type: profile
 ---

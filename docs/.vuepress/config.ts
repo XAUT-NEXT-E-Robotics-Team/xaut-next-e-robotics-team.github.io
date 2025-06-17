@@ -1,3 +1,18 @@
+/*
+ *  _   _  _______   _______   _____  
+ * | \ | ||  ___\ \ / /_   _| |  ___| 
+ * |  \| || |__  \ V /  | |   | |__   
+ * | . ` ||  __| /   \  | |   |  __|  
+ * | |\  || |___/ /^\ \ | |   | |___  
+ * \_| \_/\____/\/   \/ \_/   \____/  
+ * 
+ * @Author: ziyu (Chen Zhaoyu)
+ * @Date: 2025-06-14 00:16:00
+ * @LastEditors: ziyu (Chen Zhaoyu)
+ * @LastEditTime: 2025-06-17 12:42:23
+ * @Description: 
+ * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
+ */
 /**
  * 查看以下文档了解主题配置
  * - @see https://theme-plume.vuejs.press/config/intro/ 配置说明
@@ -12,6 +27,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import notes from './notes'
 
 export default defineUserConfig({
   base: '/',
@@ -29,7 +45,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://xaut-next-e-robotics-team.github.io',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -58,6 +74,11 @@ export default defineUserConfig({
 
     /* 博客文章页面链接前缀 */
     article: '/article/',
+
+    /**
+     * 文档
+     */
+    notes,
 
     /**
      * 编译缓存，加快编译速度
