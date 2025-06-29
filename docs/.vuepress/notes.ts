@@ -27,9 +27,15 @@ const docs__algorithm_group__nos = defineNoteConfig({
   sidebar: 'auto'
 })
 
-const train__algorithm_group__26 = defineNoteConfig({
-  dir: 'train.algorithm_group.26',
-  link: '/train/algorithm_group/26/',
+const tuition__algorithm_group__26 = defineNoteConfig({
+  dir: 'tuition.algorithm_group.26',
+  link: '/tuition/algorithm_group/26/',
+  sidebar: 'auto'
+})
+
+const tuition__control_group__26 = defineNoteConfig({
+  dir: 'tuition.control_group.26',
+  link: '/tuition/control_group/26/',
   sidebar: 'auto'
 })
 
@@ -43,6 +49,7 @@ export default defineNotesConfig({
   link: 'docs',
   notes: [
     docs__algorithm_group__nos,
-    train__algorithm_group__26,
+    tuition__algorithm_group__26,
+    tuition__control_group__26,
   ],
 })

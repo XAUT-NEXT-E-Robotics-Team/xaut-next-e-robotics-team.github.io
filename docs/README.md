@@ -19,7 +19,7 @@ config:
         -
           theme: alt
           text: 培训
-          link: /docs/train/
+          link: /docs/tuition/
         -
           theme: alt
           text: 博客
