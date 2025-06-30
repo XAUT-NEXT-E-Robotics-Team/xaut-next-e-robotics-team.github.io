@@ -21,21 +21,15 @@
  */
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
-const docs__algorithm_group__nos = defineNoteConfig({
-  dir: 'docs.algorithm_group.nos',
-  link: '/docs/algorithm_group/nos/',
+const control_group_tuition = defineNoteConfig({
+  dir: 'control_group_tuition',
+  link: '/docs/control_group_tuition/',
   sidebar: 'auto'
 })
 
-const tuition__algorithm_group__26 = defineNoteConfig({
-  dir: 'tuition.algorithm_group.26',
-  link: '/tuition/algorithm_group/26/',
-  sidebar: 'auto'
-})
-
-const tuition__control_group__26 = defineNoteConfig({
-  dir: 'tuition.control_group.26',
-  link: '/tuition/control_group/26/',
+const algorithm_group_tuition = defineNoteConfig({
+  dir: 'algorithm_group_tuition',
+  link: '/docs/algorithm_group_tuition/',
   sidebar: 'auto'
 })
 
@@ -45,11 +39,10 @@ const tuition__control_group__26 = defineNoteConfig({
  * （DemoNote 为参考示例，如果不需要它，请删除）
  */
 export default defineNotesConfig({
-  dir: '/docs/',
-  link: 'docs',
+  dir: '/notes/',
+  link: '/',
   notes: [
-    docs__algorithm_group__nos,
-    tuition__algorithm_group__26,
-    tuition__control_group__26,
+    control_group_tuition,    // 电控组培训
+    algorithm_group_tuition, // 算法组培训
   ],
 })
