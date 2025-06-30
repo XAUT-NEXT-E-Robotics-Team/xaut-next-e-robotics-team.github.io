@@ -1,7 +1,10 @@
-# 电控培训
+---
+title: 电控培训
+createTime: 2025/06/29 18:47:17
+permalink: /docs/control_group_tuition/
+---
+
 ## 培训概述
-
-
 
 ## 学习目标
 1. 如何正确地去提问？
