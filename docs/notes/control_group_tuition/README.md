@@ -3,6 +3,22 @@ title: 电控培训
 createTime: 2025/06/29 18:47:17
 permalink: /docs/control_group_tuition/
 ---
+<!--
+ *  _   _  _______   _______   _____  
+ * | \ | ||  ___\ \ / /_   _| |  ___| 
+ * |  \| || |__  \ V /  | |   | |__   
+ * | . ` ||  __| /   \  | |   |  __|  
+ * | |\  || |___/ /^\ \ | |   | |___  
+ * \_| \_/\____/\/   \/ \_/   \____/  
+ * 
+ * @Author: ziyu (Chen Zhaoyu)
+ * @Date: 2025-06-29 18:47:17
+ * @LastEditors: ziyu (Chen Zhaoyu)
+ * @LastEditTime: 2025-07-01 19:06:05
+ * @Description: 
+ * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
+-->
+
 
 ## 培训概述
 
