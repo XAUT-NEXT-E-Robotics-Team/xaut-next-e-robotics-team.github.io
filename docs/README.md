@@ -14,16 +14,24 @@ config:
       actions:
         -
           theme: brand
-          text: 文档
-          link: /docs/docs/
-        -
-          theme: alt
-          text: 培训
-          link: /docs/tuition/
-        -
-          theme: alt
-          text: 博客
-          link: /blog/
+          text: BiliBili
+          link: https://space.bilibili.com/1289802205
   -
-    type: profile
+    type: features
+    features:
+      -
+        title: 战队简介
+        icon: 🚀
+        details: 待完善
+
+      -
+        title: 算法组培训
+        icon: 🔬
+        details: 开启你的视觉与算法入门之旅
+        link: /docs/algorithm_group_tuition/
+      -
+        title: 电控组培训
+        icon: 🔦
+        details: 电控组培训文档
+        link: /docs/control_group_tuition/
 ---
