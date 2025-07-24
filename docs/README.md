@@ -1,3 +1,18 @@
+<!--
+ *  _   _  _______   _______   _____  
+ * | \ | ||  ___\ \ / /_   _| |  ___| 
+ * |  \| || |__  \ V /  | |   | |__   
+ * | . ` ||  __| /   \  | |   |  __|  
+ * | |\  || |___/ /^\ \ | |   | |___  
+ * \_| \_/\____/\/   \/ \_/   \____/  
+ * 
+ * @Author: ziyu (Chen Zhaoyu)
+ * @Date: 2025-06-14 00:16:00
+ * @LastEditors: ziyu (Chen Zhaoyu)
+ * @LastEditTime: 2025-07-24 15:33:59
+ * @Description: 
+ * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
+-->
 ---
 pageLayout: home
 externalLinkIcon: false
@@ -5,7 +20,7 @@ config:
   -
     type: banner
     full: true
-    banner: https://img.picui.cn/free/2025/06/17/6850fea1abbf6.jpg
+    banner: https://free.picui.cn/free/2025/06/17/6850fea1abbf6.jpg
     bannerMask: { light: 0.2, dark: 0.5 }
     hero:
       name: NEXT-E

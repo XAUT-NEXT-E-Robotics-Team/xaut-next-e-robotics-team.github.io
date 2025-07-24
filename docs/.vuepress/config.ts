@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-07-01 19:08:05
+ * @LastEditTime: 2025-07-24 15:33:22
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -37,7 +37,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://img.picui.cn/free/2025/06/14/684ce58a08f39.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://free.picui.cn/free/2025/06/14/684ce58a08f39.png' }],
   ],
 
   bundler: viteBundler(),
