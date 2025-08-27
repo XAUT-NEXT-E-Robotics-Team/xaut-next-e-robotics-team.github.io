@@ -1,0 +1,55 @@
+/* 表格高亮自定义 */
+[data-theme="dark"]
+{
+
+.vp-table table th.green,
+.vp-table table td.green {
+  color: #ffffff;
+  background-color: #38c40921;
+}
+
+.vp-table table th.blue,
+.vp-table table td.blue {
+  color: #ffffff;
+  background-color: #3c70f42e;
+}
+
+.vp-table table th.purple,
+.vp-table table td.purple {
+  color: #ffffff;
+  background-color: #7a3cf42e;
+}
+
+.vp-table table th.red,
+.vp-table table td.red {
+  color: #ffffff;
+  background-color: #f443362e;
+}
+}
+
+[data-theme="light"]
+{
+    .vp-table table th.green,
+    .vp-table table td.green {
+        color: #000000;
+        background-color: #38c40921;
+    }
+
+    .vp-table table th.blue,
+    .vp-table table td.blue {
+        color: #000000;
+        background-color: #3c70f42e;
+    }
+
+    .vp-table table th.purple,
+    .vp-table table td.purple {
+        color: #000000;
+        background-color: #7a3cf42e;
+    }
+
+    .vp-table table th.red,
+    .vp-table table td.red {
+        color: #000000;
+        background-color: #f443362e;
+    }
+}

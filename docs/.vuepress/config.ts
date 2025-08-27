@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-07-24 15:33:22
+ * @LastEditTime: 2025-08-27 12:48:27
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -151,6 +151,7 @@ export default defineUserConfig({
     //     kotlin: true,     // ::: kotlin-repl
     //     python: true,     // ::: python-repl
     //   },
+      table: true,        // 启用扩展表格语法
       math: {             // 启用数学公式
         type: 'katex',
       },
