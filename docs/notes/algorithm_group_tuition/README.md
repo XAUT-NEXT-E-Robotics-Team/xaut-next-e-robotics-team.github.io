@@ -14,7 +14,7 @@ config:
         -
           theme: brand
           text: 现在开始 →
-          link: ./0.欢迎来到算法组.md
+          link: 0.学习路线.md
 
 
 title: algorithm_group_tuition
