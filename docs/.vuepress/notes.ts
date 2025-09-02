@@ -1,3 +1,19 @@
+/*
+ *  _   _  _______   _______   _____  
+ * | \ | ||  ___\ \ / /_   _| |  ___| 
+ * |  \| || |__  \ V /  | |   | |__   
+ * | . ` ||  __| /   \  | |   |  __|  
+ * | |\  || |___/ /^\ \ | |   | |___  
+ * \_| \_/\____/\/   \/ \_/   \____/  
+ * 
+ * @Author: ziyu (Chen Zhaoyu)
+ * @Date: 2025-06-14 00:16:00
+ * @LastEditors: ziyu (Chen Zhaoyu)
+ * @LastEditTime: 2025-09-02 13:46:03
+ * @Description: 
+ * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
+ */
+
 /**
  * @see https://theme-plume.vuejs.press/guide/document/ 查看文档了解配置详情。
  *
@@ -33,6 +49,12 @@ const algorithm_group_tuition = defineNoteConfig({
   sidebar: 'auto'
 })
 
+const machine_group_tuition = defineNoteConfig({
+  dir: 'machine_group_tuition',
+  link: '/docs/machine_group_tuition/',
+  sidebar: 'auto'
+})
+
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
@@ -44,5 +66,6 @@ export default defineNotesConfig({
   notes: [
     control_group_tuition,    // 电控组培训
     algorithm_group_tuition, // 算法组培训
+    machine_group_tuition,   // 机械组培训
   ],
 })

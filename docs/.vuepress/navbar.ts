@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-06-30 15:26:05
+ * @LastEditTime: 2025-09-02 13:50:04
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -30,6 +30,7 @@ export default defineNavbarConfig([
     items: [
       { text: '算法组', link: '/docs/algorithm_group_tuition/' },
       { text: '电控组', link: '/docs/control_group_tuition/' },
+      { text: '机械组', link: '/docs/machine_group_tuition/' },
     ]
   },
   {
