@@ -14,6 +14,10 @@ config:
       actions:
         -
           theme: brand
+          text: 博客
+          link: /blog/
+        -
+          theme: alt
           text: BiliBili
           link: https://space.bilibili.com/1289802205
   -
@@ -41,4 +45,6 @@ config:
         icon: ⛏️
         details: 机械组培训文档
         link: /docs/machine_group_tuition/
+  # -
+  #   type: blog
 ---

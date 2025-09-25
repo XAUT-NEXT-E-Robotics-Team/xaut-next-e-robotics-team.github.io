@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-06-17 13:05:49
+ * @LastEditTime: 2025-09-23 19:20:37
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -60,12 +60,16 @@ export default defineThemeConfig({
   //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   //   copyright: '',
   // },
+  footer: {
+    message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    copyright: '',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://img.picui.cn/free/2025/06/14/684ce58a08f39.png',
+    avatar: 'https://free.picui.cn/free/2025/06/14/684ce58a08f39.png',
     name: 'NEXT-E',
     description: '西安理工大学NEXT-E战队',
     // circle: true,
