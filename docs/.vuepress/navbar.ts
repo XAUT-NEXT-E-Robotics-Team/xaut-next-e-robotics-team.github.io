@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-09-02 13:50:04
+ * @LastEditTime: 2025-09-28 10:27:48
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -36,8 +36,7 @@ export default defineNavbarConfig([
   {
     text: '文档',
     items: [
-      { text: '算法组', link: '/docs/docs/algorithm_group/' },
-      { text: '电控组', link: '/docs/docs/control_group/' },
+      { text: 'ne_vision 自瞄文档', link: '/docs/ne_vision_docs/' },
     ]
   },
   { text: '关于NEXT-E', link: '/about/' },
