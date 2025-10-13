@@ -1,0 +1,3 @@
+Sitemap: https://xaut-next-e-robotics-team.github.io/sitemap.xml
+User-agent:*
+Disallow:
