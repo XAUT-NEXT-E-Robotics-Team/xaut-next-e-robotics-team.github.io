@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-09-28 10:26:12
+ * @LastEditTime: 2025-10-05 17:42:05
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -55,11 +55,6 @@ const machine_group_tuition = defineNoteConfig({
   sidebar: 'auto'
 })
 
-const ne_vision_docs = defineNoteConfig({
-  dir: 'ne_vision_docs',
-  link: '/docs/ne_vision_docs/',
-  sidebar: 'auto'
-})
 
 /**
  * 导出所有的 note
@@ -73,7 +68,5 @@ export default defineNotesConfig({
     control_group_tuition,    // 电控组培训
     algorithm_group_tuition, // 算法组培训
     machine_group_tuition,   // 机械组培训
-
-    ne_vision_docs,          // ne_vision 自瞄文档
   ],
 })

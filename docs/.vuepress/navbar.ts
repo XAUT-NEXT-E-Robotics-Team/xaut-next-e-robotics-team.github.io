@@ -9,7 +9,7 @@
  * @Author: ziyu (Chen Zhaoyu)
  * @Date: 2025-06-14 00:16:00
  * @LastEditors: ziyu (Chen Zhaoyu)
- * @LastEditTime: 2025-10-13 21:29:40
+ * @LastEditTime: 2025-10-13 21:30:41
  * @Description: 
  * Copyright (c) 2025 by XAUT NEXT-E/ziyu, All Rights Reserved. 
  */
@@ -36,7 +36,7 @@ export default defineNavbarConfig([
   {
     text: '文档',
     items: [
-      { text: 'ne_vision 自瞄文档', link: '/docs/ne_vision_docs/' },
+      { text: 'ne_vision 自瞄文档', link: 'https://ne-vision-doc.readthedocs.io/' },
       { text: 'NECCL 电控组件库文档', link: 'https://neccl-doc.readthedocs.io/' },
     ]
   },
